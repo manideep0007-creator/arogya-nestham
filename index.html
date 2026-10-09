@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Social Meta Tags -->
+  <title>Arogya Jagruthi: Early Health Warning Signs Awareness System for Rural Communities</title>
+  <meta name="description" content="Arogya Jagruthi (ఆరోగ్య జాగృతి) - Early Health Warning Signs Awareness System for Rural Communities in Andhra Pradesh. Your friend for early health care. Purely educational awareness.">
+  <meta name="keywords" content="Arogya Jagruthi, Health Awareness, Rural Health, Andhra Pradesh, Padmanabham, 108 Emergency, 104 Helpline, Warning Signs, PHC">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="application-name" content="Arogya Jagruthi">
+
+  <!-- Typography: Google Fonts (Outfit & Noto Sans Telugu) with system fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="top-nav">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo & Title -->
+      <a href="#hero" class="nav-brand" aria-label="Arogya Jagruthi Homepage">
+        <div class="brand-icon-box" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="M12 8v8"/>
+            <path d="M8 12h8"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title" id="nav-brand-title">Arogya Jagruthi</span>
+          <span class="brand-sub" id="nav-brand-sub">Health Awareness</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-links-list" id="nav-links-list">
+          <li><a href="#warning-signs" class="nav-link">Warning Signs</a></li>
+          <li><a href="#emergency" class="nav-link">Emergency</a></li>
+          <li><a href="#myths-facts" class="nav-link">Myths &amp; Facts</a></li>
+          <li><a href="#when-doctor" class="nav-link">Checklist</a></li>
+          <li><a href="#quiz" class="nav-link">Quiz</a></li>
+          <li><a href="#find-help" class="nav-link">Find Help</a></li>
+          <li><a href="#community" class="nav-link">Village Visit</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Language Switch & 108 Emergency Dial -->
+      <div class="nav-actions">
+        <!-- English / Telugu Toggle Button -->
+        <button type="button" class="lang-toggle-btn" id="lang-toggle-btn" aria-label="Switch Language to Telugu">
+          <svg class="lang-globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span id="lang-switch-label">తెలుగు</span>
+        </button>
+
+        <!-- 108 Quick Dial Button -->
+        <a href="tel:108" class="nav-emergency-link" id="nav-emergency-btn" aria-label="Call 108 Emergency Ambulance">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>Call 108</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-content fade-in-up">
+          
+          <div class="hero-badge-pill" id="hero-badge">Community Health Initiative</div>
+          
+          <div class="hero-title-group">
+            <h1 class="hero-main-title" id="hero-title">Arogya Jagruthi</h1>
+            <span class="hero-telugu-title" id="hero-title-alt">ఆరోగ్య జాగృతి</span>
+          </div>
+
+          <p class="hero-tagline-text" id="hero-tagline">Your friend for early health care / ఆలస్యం చేయకండి, డాక్టర్ను కలవండి</p>
+          
+          <div class="hero-message-box">
+            <p class="hero-message-text" id="hero-message">Don't ignore symptoms that last. See a qualified doctor early before a small issue becomes serious.</p>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#warning-signs" class="btn btn-primary" id="hero-cta-primary">
+              <span>Learn the Warning Signs</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+            <a href="#emergency" class="btn btn-secondary" id="hero-cta-emergency">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>Emergency Warning (108)</span>
+            </a>
+          </div>
+
+          <div class="hero-highlights-strip" id="hero-highlights">
+            <!-- Dynamically populated chips -->
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. WARNING SIGNS SECTION (7 CARDS)
+         ========================================================================= -->
+    <section class="section-wrapper" id="warning-signs">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="warning-badge">Do Not Ignore</div>
+          <h2 class="section-title" id="warning-title">7 Crucial Early Warning Signs</h2>
+          <p class="section-subtitle" id="warning-subtitle">If any of these conditions persist in you or your family members, do not wait. Seek advice from a qualified doctor.</p>
+        </header>
+
+        <div class="warning-cards-grid" id="warning-cards-grid">
+          <!-- 7 Warning Cards rendered by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. EMERGENCY SIGNS SECTION (PROMINENT RED ALERT BOX)
+         ========================================================================= -->
+    <section class="section-wrapper emergency-wrapper" id="emergency">
+      <div class="container">
+        
+        <div class="emergency-alert-card fade-in-up">
+          
+          <div class="emergency-card-header">
+            <span class="emergency-top-badge" id="emergency-badge">Immediate Action Required</span>
+            <h2 class="emergency-main-title" id="emergency-title">Emergency Warning Signs</h2>
+            <p class="emergency-headline-text" id="emergency-headline">Do Not Wait! Every Minute Counts.</p>
+            <p class="emergency-desc-text" id="emergency-desc">If anyone around you suddenly displays any of these symptoms, do not give home remedies or wait for morning. Take them to the nearest hospital immediately.</p>
+          </div>
+
+          <div class="emergency-signs-grid" id="emergency-signs-list">
+            <!-- 4 Emergency Signs rendered by script.js -->
+          </div>
+
+          <div class="emergency-action-callout">
+            <p class="emergency-callout-text" id="emergency-action-text">Go to the nearest government hospital immediately. Call 108 for free emergency ambulance support.</p>
+            <a href="tel:108" class="btn btn-danger emergency-dial-btn" id="emergency-call-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span>Dial 108 Emergency Ambulance</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. MYTHS VS FACTS SECTION (5 FLIP CARDS)
+         ========================================================================= -->
+    <section class="section-wrapper bg-tint" id="myths-facts">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="myths-badge">Knowledge Protects</div>
+          <h2 class="section-title" id="myths-title">Myths vs Facts</h2>
+          <p class="section-subtitle" id="myths-subtitle">Rural communities often hear traditional beliefs. Learn what is safe and when home remedies delay life-saving medical care.</p>
+          <div class="myths-instruction-pill" id="myths-hint">
+            <!-- Instruction text with flip icon -->
+          </div>
+        </header>
+
+        <div class="myths-grid" id="myths-grid">
+          <!-- 5 3D Flip Cards rendered by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. WHY NOT SELF-MEDICATE SECTION
+         ========================================================================= -->
+    <section class="section-wrapper selfmed-wrapper" id="why-no-self-medicate">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="selfmed-badge">Crucial Caution</div>
+          <h2 class="section-title" id="selfmed-title">Why You Must Not Self-Medicate</h2>
+          <p class="section-subtitle" id="selfmed-subtitle">Taking medicines on your own or on shopkeeper recommendations is dangerous.</p>
+        </header>
+
+        <div class="selfmed-intro-box fade-in-up">
+          <p class="selfmed-intro-text" id="selfmed-intro">When you feel sick, buying tablets from a local shop without a doctor's prescription might provide temporary relief from pain or fever. However, this is a dangerous trap.</p>
+        </div>
+
+        <div class="selfmed-points-grid" id="selfmed-points-list">
+          <!-- Self medication warning points rendered by script.js -->
+        </div>
+
+        <div class="selfmed-summary-card fade-in-up" id="selfmed-summary-box">
+          <!-- Summary card rendered by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. WHEN TO GO TO THE DOCTOR CHECKLIST
+         ========================================================================= -->
+    <section class="section-wrapper" id="when-doctor">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="checklist-badge">Quick Decision Tool</div>
+          <h2 class="section-title" id="checklist-title">When to Go to the Doctor: Simple Checklist</h2>
+          <p class="section-subtitle" id="checklist-subtitle">Tick off your observations. If any item applies, plan a visit to your nearest health centre this week.</p>
+        </header>
+
+        <div class="checklist-container">
+          <div class="checklist-items-grid" id="checklist-items">
+            <!-- Checklist items rendered by script.js -->
+          </div>
+
+          <div class="checklist-advice-banner fade-in-up">
+            <h4 class="advice-banner-title" id="checklist-advice-title">Rule of Thumb for Rural Families:</h4>
+            <p class="advice-banner-text" id="checklist-advice-text">'If it hasn't gone away in two weeks, do not wait for a third week. Visit your Primary Health Centre (PHC).'</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. AWARENESS QUIZ (5 MCQS WITH INSTANT FEEDBACK)
+         ========================================================================= -->
+    <section class="section-wrapper quiz-section" id="quiz">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="quiz-badge">Test Your Understanding</div>
+          <h2 class="section-title" id="quiz-title">Community Health Awareness Quiz</h2>
+          <p class="section-subtitle" id="quiz-subtitle">Answer these 5 simple questions to see how well you know early warning signs.</p>
+        </header>
+
+        <div class="quiz-wrapper">
+          <div id="quiz-interactive-area">
+            <!-- Interactive Quiz Card & Results rendered by script.js -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. FIND HELP SECTION (PHC, CHC, 104 & 108)
+         ========================================================================= -->
+    <section class="section-wrapper help-section" id="find-help">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="help-badge">Access Healthcare</div>
+          <h2 class="section-title" id="help-title">Where to Find Help in Your Area</h2>
+          <p class="section-subtitle" id="help-subtitle">Government healthcare facilities are established to serve rural citizens at zero or minimal cost.</p>
+        </header>
+
+        <!-- Helplines (104 & 108) -->
+        <div class="helplines-grid" id="help-helplines-grid">
+          <!-- Helpline cards rendered by script.js -->
+        </div>
+
+        <!-- Facilities (PHC & CHC) -->
+        <div class="facilities-grid" id="help-facilities-grid">
+          <!-- Healthcare facilities rendered by script.js -->
+        </div>
+
+        <!-- Village ASHA & ANM Note -->
+        <div class="asha-banner-card fade-in-up">
+          <h4 class="asha-banner-title" id="help-asha-title">Meet Your Village ASHA Worker &amp; ANM</h4>
+          <p class="asha-banner-text" id="help-asha-text">Your village Accredited Social Health Activist (ASHA) and Auxiliary Nurse Midwife (ANM) visit households regularly. They can guide you directly to the PHC and assist with appointments.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         10. OUR COMMUNITY ACTIVITY SECTION (PADMANABHAM VILLAGE)
+         ========================================================================= -->
+    <section class="section-wrapper community-section" id="community">
+      <div class="container">
+        
+        <header class="section-header fade-in-up">
+          <div class="section-badge" id="community-badge">Grassroots Outreach</div>
+          <h2 class="section-title" id="community-title">Our Community Activity</h2>
+          <p class="section-subtitle" id="community-subtitle">Bringing early healthcare awareness directly to rural doorsteps.</p>
+        </header>
+
+        <!-- Village Spotlight Info -->
+        <div class="village-spotlight-card fade-in-up">
+          <span class="village-badge" id="community-village-badge">Village Focus</span>
+          <h3 class="village-name" id="community-village-name">Padmanabham Village</h3>
+          <p class="village-district" id="community-village-dist">Visakhapatnam District, Andhra Pradesh</p>
+          <p class="village-summary" id="community-village-summary">Our awareness campaign engages local residents, women's self-help groups, and rural elders in Padmanabham to recognize vital early health warning signs and promote PHC visits over risky self-medication.</p>
+        </div>
+
+        <!-- Key Outreach Metrics (Editable fields in content object) -->
+        <div class="community-stats-grid" id="community-stats-grid">
+          <!-- Metric cards rendered by script.js -->
+        </div>
+
+        <!-- 4 Photo Slots Gallery -->
+        <div class="gallery-header fade-in-up">
+          <h3 class="gallery-title" id="community-gallery-title">Field Visit Glimpses</h3>
+          <p class="gallery-note" id="community-gallery-note">Photographs from our on-ground community interaction in Padmanabham village.</p>
+        </div>
+
+        <div class="gallery-grid" id="community-gallery-grid">
+          <!-- 4 slots for visit1.jpg to visit4.jpg with fallback placeholders rendered by script.js -->
+        </div>
+
+        <p class="gallery-placeholder-note" id="community-placeholder-note">
+          Photo preview will display once images/visit1.jpg to images/visit4.jpg are placed in the images folder.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       11. FOOTER & MEDICAL DISCLAIMER
+       ========================================================================= -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      
+      <!-- Project Details Showcase (Top Row: Badge, College, Guide | Grid: 8 Member Cards) -->
+      <div class="footer-project-showcase fade-in-up">
+        
+        <!-- Top Row: Team Badge, Institution Name, Project Guide Card -->
+        <div class="footer-project-header">
+          <div class="footer-badge-wrap">
+            <span class="footer-team-badge" id="footer-team-badge">Team No. 6 · HealthFirst</span>
+          </div>
+          <h3 class="footer-college-name" id="footer-college-name">Lendi Institute of Engineering and Technology</h3>
+          
+          <div class="footer-guide-card">
+            <div class="guide-icon-wrap" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div class="guide-details">
+              <span class="guide-label" id="footer-guide-heading">Project Guide</span>
+              <strong class="guide-name" id="footer-guide-name">P. Venkata Satya Sri</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Members Section -->
+        <div class="footer-members-section">
+          <h4 class="footer-members-heading" id="footer-team-heading">Team Members</h4>
+          <div class="footer-members-grid" id="footer-members-grid">
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">MVG</div>
+              <span class="member-name">Meesala Veda Gayatri</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">NM</div>
+              <span class="member-name">Nallabanda Manideep</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">NS</div>
+              <span class="member-name">Nammi Sruthi</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">NA</div>
+              <span class="member-name">Neteti Asha</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">NP</div>
+              <span class="member-name">Nithin Pyla</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">OSMK</div>
+              <span class="member-name">Oruganti Sai Mani Keerthana</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">PP</div>
+              <span class="member-name">Palaparthi Pavani</span>
+            </div>
+            <div class="footer-member-card">
+              <div class="member-avatar" aria-hidden="true">PST</div>
+              <span class="member-name">Pampana Sai Teja</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mandatory Public Health Disclaimer (Visible below project details) -->
+      <div class="footer-disclaimer-box fade-in-up">
+        <h4 class="footer-disclaimer-heading" id="footer-disclaimer-heading">Important Medical Disclaimer</h4>
+        <p class="footer-disclaimer-text" id="footer-disclaimer-text">This website is created purely for educational and public health awareness purposes for rural communities. It does NOT diagnose diseases, predict medical outcomes, check symptoms, or suggest medications or treatments. Always consult a qualified medical professional for health concerns.</p>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p id="footer-copyright">Arogya Jagruthi Community Health Awareness Initiative. Designed for rural Andhra Pradesh.</p>
+        <a href="#hero" class="back-to-top-btn" aria-label="Back to top of page">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>
+          </svg>
+          <span>Back to Top</span>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Core JavaScript (Bilingual Data & Logic) -->
+  <script src="script.js"></script>
+</body>
+</html>
